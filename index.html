@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G12 Diet Food</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Overlay for Initial Loading -->
+    <div class="loader-overlay" id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Header Section -->
+    <header class="hero-section">
+        <div class="language-toggle">
+            <input type="checkbox" id="lang-switch">
+            <label for="lang-switch" class="toggle-label">
+                <span class="lang-ar">عربي</span>
+                <span class="lang-en">EN</span>
+                <div class="toggle-ball"></div>
+            </label>
+        </div>
+        
+        <div class="logo-container">
+            <img src="logo.jpeg" alt="G12 Gym Logo" class="brand-logo">
+        </div>
+        
+        <div class="hero-content">
+            <h1 id="hero-title">G12 للوجبات الصحية</h1>
+            <p id="hero-subtitle">طعام صحي صُنع خصيصاً لأبطالنا</p>
+        </div>
+
+        <div class="contact-actions">
+            <a href="tel:07844121212" class="btn btn-call">
+                <i class="fa-solid fa-phone"></i>
+                <span id="call-text">إتصل بنا للطلب</span>
+            </a>
+            <a href="https://maps.app.goo.gl/udRXzP4pra3UnP5s6?g_st=awb" target="_blank" class="btn btn-map">
+                <i class="fa-solid fa-location-dot"></i>
+                <span id="map-text">موقعنا</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Menu Section -->
+    <main class="menu-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="menu-heading">قائمة الطعام</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="menu-grid" id="menu-container">
+                <!-- Menu items will be injected here via JavaScript -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <a href="https://www.instagram.com/g12.gym?igsh=bWdzenM2NmZhcDE5" target="_blank" class="social-link">
+                <i class="fa-brands fa-instagram"></i>
+                <span id="instagram-text">تابعنا على إنستغرام</span>
+            </a>
+            <p id="footer-text">&copy; 2026 جميع الحقوق محفوظة - G12 للوجبات الصحية</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="menu-data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
