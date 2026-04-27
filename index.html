@@ -42,7 +42,7 @@
         <div class="contact-actions">
             <a href="tel:07844121212" class="btn btn-call">
                 <i class="fa-solid fa-phone"></i>
-                <span id="call-text">إتصل بنا للطلب</span>
+                <span id="call-text">إتصل بنا</span>
             </a>
             <a href="https://maps.app.goo.gl/udRXzP4pra3UnP5s6?g_st=awb" target="_blank" class="btn btn-map">
                 <i class="fa-solid fa-location-dot"></i>
@@ -75,6 +75,53 @@
             <p id="footer-text">&copy; 2026 جميع الحقوق محفوظة - G12 للوجبات الصحية</p>
         </div>
     </footer>
+
+    <!-- Floating Cart Button -->
+    <div class="floating-cart" id="floating-cart" onclick="toggleCart()">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="cart-badge" id="cart-badge">0</span>
+    </div>
+
+    <!-- Item Details Modal -->
+    <div class="modal-overlay" id="item-modal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="modal-image-container">
+                <img id="modal-image" src="" alt="">
+            </div>
+            <div class="modal-body">
+                <h3 id="modal-title"></h3>
+                <p id="modal-description"></p>
+                <div class="modal-footer">
+                    <span id="modal-price" class="modal-price"></span>
+                    <button id="add-to-cart-btn" class="btn btn-call">إضافة للسلة</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-overlay" id="cart-overlay" onclick="toggleCart()"></div>
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3 id="cart-title">سلة الطلبات</h3>
+            <button class="close-cart" onclick="toggleCart()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items injected here -->
+            <div class="empty-cart-msg" id="empty-cart-msg">السلة فارغة</div>
+        </div>
+        <div class="cart-footer">
+            <button class="btn btn-whatsapp" id="checkout-btn" onclick="checkoutWhatsapp()" disabled>
+                <i class="fa-brands fa-whatsapp"></i>
+                <span id="checkout-text">تثبيت طلب عبر واتساب</span>
+            </button>
+        </div>
+    </div>
 
     <!-- Scripts -->
     <script src="menu-data.js"></script>

@@ -2,92 +2,92 @@ const menuData = [
     {
         id: 1,
         image: 'item1.jpeg',
-        price: '15,000 IQD',
+        price: 5000,
         en: {
-            name: 'Grilled Chicken Breast',
-            description: 'Healthy grilled chicken breast with steamed vegetables.'
+            name: 'Quinoa Salad',
+            description: 'Lettuce, arugula, quinoa, strawberry, pine nuts, feta cheese, thyme, special sauce.'
         },
         ar: {
-            name: 'صدر دجاج مشوي',
-            description: 'صدر دجاج مشوي صحي مع الخضار على البخار.'
+            name: 'كينوا سلط',
+            description: 'خس، جرجير، كينوا، فراولة، لوز صنوبري، جبن فيتا، زعتر، صوص خاص.'
         }
     },
     {
         id: 2,
         image: 'item2.jpeg',
-        price: '12,000 IQD',
+        price: 5500,
         en: {
-            name: 'Diet Salad Bowl',
-            description: 'Fresh mixed greens with a light vinaigrette dressing.'
+            name: 'Healthy Chicken Sandwich',
+            description: 'Brown bread, grilled chicken, lettuce, lemon sauce, lemon slices.'
         },
         ar: {
-            name: 'طبق سلطة دايت',
-            description: 'خضار مشكلة طازجة مع تتبيلة الخل الخفيفة.'
+            name: 'هيلثي جكن ساندوتش',
+            description: 'صمون اسمر، دجاج مشوي، خس، صوص ليمون، شرائح ليمون.'
         }
     },
     {
         id: 3,
         image: 'item3.jpeg',
-        price: '18,000 IQD',
+        price: 5000,
         en: {
-            name: 'Grilled Salmon',
-            description: 'Perfectly grilled salmon fillet packed with Omega-3.'
+            name: 'Smoked Beef Sandwich',
+            description: 'Brown bread, minced meat, green pepper, onion, special sauce, arugula.'
         },
         ar: {
-            name: 'سلمون مشوي',
-            description: 'شريحة سلمون مشوية بشكل مثالي غنية بأوميغا 3.'
+            name: 'سموك بيف ساندوتش',
+            description: 'خبز اسمر، لحم مفروم، فلفل اخضر، بصل، صوص خاص، جرجير.'
         }
     },
     {
         id: 4,
         image: 'item4.jpeg',
-        price: '14,000 IQD',
+        price: 5000,
         en: {
-            name: 'Beef Steak with Broccoli',
-            description: 'Tender beef steak strips served with fresh broccoli.'
+            name: 'Tuna Sandwich',
+            description: 'Brown bread, tuna, corn, lettuce, special sauce.'
         },
         ar: {
-            name: 'ستيك لحم مع البروكلي',
-            description: 'شرائح ستيك لحم طرية تقدم مع البروكلي الطازج.'
+            name: 'تونا ساندوتش',
+            description: 'خبز اسمر، تونا، ذره، خس، صوص خاص.'
         }
     },
     {
         id: 5,
         image: 'item5.jpeg',
-        price: '10,000 IQD',
+        price: 5000,
         en: {
-            name: 'Oatmeal Protein Bowl',
-            description: 'Nutritious oatmeal bowl topped with fresh fruits and nuts.'
+            name: 'Red Pasta',
+            description: 'Penne pasta, marinara sauce, grilled chicken.'
         },
         ar: {
-            name: 'وعاء بروتين الشوفان',
-            description: 'وعاء شوفان مغذي مغطى بالفواكه الطازجة والمكسرات.'
+            name: 'باستا حمراء',
+            description: 'باستا بينا، صوص ماري نارا، دجاج مشوي.'
         }
     },
     {
         id: 6,
         image: 'item6.jpeg',
-        price: '8,000 IQD',
+        price: 6500,
         en: {
-            name: 'Avocado Toast',
-            description: 'Mashed avocado on whole wheat toast with a poached egg.'
+            name: 'Rice + Chicken',
+            description: 'Boiled rice, grilled chicken, lettuce, pasteurized cheese, broccoli, carrots, cherry tomatoes, corn, lemon juice.'
         },
         ar: {
-            name: 'توست الأفوكادو',
-            description: 'أفوكادو مهروس على خبز القمح الكامل المحمص مع بيضة مسلوقة.'
+            name: 'رز + دجاج',
+            description: 'رز مسلوق، دجاج مشوي، خس، جبن مبستر، بروكلي، جزر، طماطم كرزيه، ذره، عصير ليمون.'
         }
     },
     {
         id: 7,
         image: 'item7.jpeg',
-        price: '16,000 IQD',
+        price: 6000,
         en: {
-            name: 'Healthy Turkey Wrap',
-            description: 'Whole wheat wrap filled with smoked turkey and veggies.'
+            name: 'Rice + Fish',
+            description: 'Boiled rice, grilled fish fillet, lettuce, pasteurized cheese, broccoli, carrots, cherry tomatoes, corn, lemon juice.'
         },
         ar: {
-            name: 'راب الديك الرومي الصحي',
-            description: 'لفافة قمح كامل محشوة بالديك الرومي المدخن والخضروات.'
+            name: 'رز + سمك',
+            description: 'رز مسلوق، فيليه سمك مشوي، خس، جبن مبستر، بروكلي، جزر، طماطم كرزيه، ذره، عصير ليمون.'
         }
     }
 ];
