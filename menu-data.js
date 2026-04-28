@@ -1,7 +1,7 @@
 const menuData = [
     {
         id: 1,
-        image: 'item1.jpeg',
+        image: 'item3.jpeg',
         price: 5000,
         en: {
             name: 'Quinoa Salad',
@@ -14,8 +14,8 @@ const menuData = [
     },
     {
         id: 2,
-        image: 'item2.jpeg',
-        price: 5500,
+        image: 'item5.jpeg',
+        price: 5000,
         en: {
             name: 'Healthy Chicken Sandwich',
             description: 'Brown bread, grilled chicken, lettuce, lemon sauce, lemon slices.'
@@ -27,7 +27,7 @@ const menuData = [
     },
     {
         id: 3,
-        image: 'item3.jpeg',
+        image: 'item7.jpeg',
         price: 5000,
         en: {
             name: 'Smoked Beef Sandwich',
@@ -40,7 +40,7 @@ const menuData = [
     },
     {
         id: 4,
-        image: 'item4.jpeg',
+        image: 'item6.jpeg',
         price: 5000,
         en: {
             name: 'Tuna Sandwich',
@@ -53,8 +53,8 @@ const menuData = [
     },
     {
         id: 5,
-        image: 'item5.jpeg',
-        price: 5000,
+        image: 'item4.jpeg',
+        price: 5500,
         en: {
             name: 'Red Pasta',
             description: 'Penne pasta, marinara sauce, grilled chicken.'
@@ -66,7 +66,7 @@ const menuData = [
     },
     {
         id: 6,
-        image: 'item6.jpeg',
+        image: 'item2.jpeg',
         price: 6500,
         en: {
             name: 'Rice + Chicken',
@@ -79,7 +79,7 @@ const menuData = [
     },
     {
         id: 7,
-        image: 'item7.jpeg',
+        image: 'item1.jpeg',
         price: 6000,
         en: {
             name: 'Rice + Fish',
