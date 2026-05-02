@@ -57,11 +57,11 @@ const menuData = [
         price: 5500,
         en: {
             name: 'Red Pasta',
-            description: 'Penne pasta, marinara sauce, grilled chicken.'
+            description: 'Penne pasta, marinara sauce, grilled chicken(100g).'
         },
         ar: {
             name: 'باستا حمراء',
-            description: 'باستا بينا، صوص ماري نارا، دجاج مشوي.'
+            description: 'باستا بينا، صوص ماري نارا، دجاج مشوي(100غ).'
         }
     },
     {
@@ -70,11 +70,11 @@ const menuData = [
         price: 6500,
         en: {
             name: 'Rice Chicken',
-            description: 'Boiled rice, grilled chicken, lettuce, pasteurized cheese, broccoli, carrots, cherry tomatoes, corn, lemon juice.'
+            description: 'Boiled rice(200g), grilled chicken(150g), lettuce, pasteurized cheese, broccoli, carrots, cherry tomatoes, corn, lemon juice.'
         },
         ar: {
             name: 'رايز جكن',
-            description: 'رز مسلوق، دجاج مشوي، خس، جبن مبستر، بروكلي، جزر، طماطم كرزيه، ذره، عصير ليمون.'
+            description: 'رز مسلوق(200غ)، دجاج مشوي(150غ)، خس، جبن مبستر، بروكلي، جزر، طماطم كرزيه، ذره، عصير ليمون.'
         }
     },
     {
@@ -83,11 +83,11 @@ const menuData = [
         price: 7000,
         en: {
             name: 'Rice Beef',
-            description: 'Boiled rice, beef, lettuce, pasteurized cheese, broccoli, carrots, cherry tomatoes, corn, lemon juice.'
+            description: 'Boiled rice(200g), beef(120g), lettuce, pasteurized cheese, broccoli, carrots, cherry tomatoes, corn, lemon juice.'
         },
         ar: {
             name: 'رايز بيف',
-            description: 'رز مسلوق، لحم، خس، جبن مبستر، بروكلي، جزر، طماطم كرزيه، ذره، عصير ليمون.'
+            description: 'رز مسلوق(200غ)، لحم(120غ)، خس، جبن مبستر، بروكلي، جزر، طماطم كرزيه، ذره، عصير ليمون.'
         }
     },
     {
@@ -96,11 +96,11 @@ const menuData = [
         price: 7000,
         en: {
             name: 'Rice Fish',
-            description: 'Boiled rice, grilled fish fillet, lettuce, pasteurized cheese, broccoli, carrots, cherry tomatoes, corn, lemon juice.'
+            description: 'Boiled rice(200g), grilled fish fillet(300g), lettuce, pasteurized cheese, broccoli, carrots, cherry tomatoes, corn, lemon juice.'
         },
         ar: {
             name: 'رايز فش',
-            description: 'رز مسلوق، فيليه سمك مشوي، خس، جبن مبستر، بروكلي، جزر، طماطم كرزيه، ذره، عصير ليمون.'
+            description: 'رز مسلوق(200غ)، فيليه سمك مشوي(300غ)، خس، جبن مبستر، بروكلي، جزر، طماطم كرزيه، ذره، عصير ليمون.'
         }
     }
 ];
