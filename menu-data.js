@@ -69,24 +69,37 @@ const menuData = [
         image: 'item2.jpeg',
         price: 6500,
         en: {
-            name: 'Rice + Chicken',
+            name: 'Rice Chicken',
             description: 'Boiled rice, grilled chicken, lettuce, pasteurized cheese, broccoli, carrots, cherry tomatoes, corn, lemon juice.'
         },
         ar: {
-            name: 'رز + دجاج',
+            name: 'رايز جكن',
             description: 'رز مسلوق، دجاج مشوي، خس، جبن مبستر، بروكلي، جزر، طماطم كرزيه، ذره، عصير ليمون.'
         }
     },
     {
         id: 7,
-        image: 'item1.jpeg',
-        price: 6000,
+        image: 'item2.jpeg',
+        price: 7000,
         en: {
-            name: 'Rice + Fish',
+            name: 'Rice Beef',
+            description: 'Boiled rice, beef, lettuce, pasteurized cheese, broccoli, carrots, cherry tomatoes, corn, lemon juice.'
+        },
+        ar: {
+            name: 'رايز بيف',
+            description: 'رز مسلوق، لحم، خس، جبن مبستر، بروكلي، جزر، طماطم كرزيه، ذره، عصير ليمون.'
+        }
+    },
+    {
+        id: 8,
+        image: 'item1.jpeg',
+        price: 7000,
+        en: {
+            name: 'Rice Fish',
             description: 'Boiled rice, grilled fish fillet, lettuce, pasteurized cheese, broccoli, carrots, cherry tomatoes, corn, lemon juice.'
         },
         ar: {
-            name: 'رز + سمك',
+            name: 'رايز فش',
             description: 'رز مسلوق، فيليه سمك مشوي، خس، جبن مبستر، بروكلي، جزر، طماطم كرزيه، ذره، عصير ليمون.'
         }
     }
