@@ -79,7 +79,7 @@ const menuData = [
     },
     {
         id: 7,
-        image: 'item2.jpeg',
+        image: 'item8.jpeg',
         price: 7000,
         en: {
             name: 'Rice Beef',
